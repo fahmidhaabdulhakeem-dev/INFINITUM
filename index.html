@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>INFINITUM Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Animated background -->
+    <div class="bg"></div>
+
+    <!-- Toggle -->
+    <button class="toggle-btn" onclick="toggleMode()">🌙 Mode</button>
+
+    <div class="container">
+
+        <!-- Animated Logo -->
+        <h1 class="logo">INFINITUM</h1>
+        <p class="tagline">Endless Search. Infinite Knowledge.</p>
+
+        <!-- Search Bar -->
+        <div class="search-box">
+            <input type="text" placeholder="Search the infinite...">
+            <button>Search</button>
+        </div>
+
+        <!-- Buttons -->
+        <div class="shortcuts">
+            <button>🔥 Trending</button>
+            <button>🎓 Study</button>
+            <button>💡 Ideas</button>
+            <button>🚀 Explore</button>
+        </div>
+
+    </div>
+
+    <script>
+        function toggleMode(){
+            document.body.classList.toggle("dark");
+        }
+    </script>
+
+</body>
+</html>
