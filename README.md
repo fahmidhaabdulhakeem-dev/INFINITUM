@@ -31,7 +31,7 @@ INFINITUM/
 ## 🚀 Live Demo
 
 Hosted Project:
-[Add your GitHub Pages link here]
+https://fahmidhaabdulhakeem-dev.github.io/INFINITUM/
 
 ## 📸 Preview
 
